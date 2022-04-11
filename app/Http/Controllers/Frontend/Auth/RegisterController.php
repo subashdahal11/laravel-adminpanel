@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Frontend\Auth;
-
+use Illuminate\Http\Request;
 use App\Events\Frontend\Auth\UserRegistered;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\RegisterRequest;
